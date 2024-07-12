@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "index.html#environmental-epidemiology-and-biostatistics",
+    "href": "index.html#environmental-epidemiology-and-biostatistics",
+    "title": "",
+    "section": " Environmental epidemiology and biostatistics",
+    "text": "Environmental epidemiology and biostatistics\n\n\n\n       Will Simmons\n12 July 2024\nWeill Cornell Medicine Biostatistics"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "",
+    "section": "About me",
+    "text": "About me\n\nEducation"
+  },
+  {
+    "objectID": "index.html#about-me-1",
+    "href": "index.html#about-me-1",
+    "title": "",
+    "section": "About me",
+    "text": "About me\nExperience in environmental health methods"
+  },
+  {
+    "objectID": "index.html#about-me-2",
+    "href": "index.html#about-me-2",
+    "title": "",
+    "section": "About me",
+    "text": "About me\nExperience in environmental health methods\n\n\n\nIRI:\nClimate exposures and nutrition in Bangladesh"
+  },
+  {
+    "objectID": "index.html#about-me-3",
+    "href": "index.html#about-me-3",
+    "title": "",
+    "section": "About me",
+    "text": "About me\nExperience in environmental health methods\n\n\n\nIRI:\nClimate exposures and nutrition in Bangladesh\n\n\n\n\nMaster’s research:\nExtreme heat, air pollution, and congenital heart defects"
+  },
+  {
+    "objectID": "index.html#about-me-4",
+    "href": "index.html#about-me-4",
+    "title": "",
+    "section": "About me",
+    "text": "About me\nCurrent work as a hospital biostatistician"
+  },
+  {
+    "objectID": "index.html#about-me-5",
+    "href": "index.html#about-me-5",
+    "title": "",
+    "section": "About me",
+    "text": "About me\nCurrent work as a hospital biostatistician\n\n\n\nPediatric mental health \nQuality of care \n\n\n\nChronic kidney disease \nSQL database management"
+  },
+  {
+    "objectID": "index.html#what-is-environmental-epidemiology",
+    "href": "index.html#what-is-environmental-epidemiology",
+    "title": "",
+    "section": "What is environmental epidemiology?",
+    "text": "What is environmental epidemiology?"
+  },
+  {
+    "objectID": "index.html#what-is-environmental-epidemiology-1",
+    "href": "index.html#what-is-environmental-epidemiology-1",
+    "title": "",
+    "section": "What is environmental epidemiology?",
+    "text": "What is environmental epidemiology?\n\n\n\nStudy of environmental exposures and how they affect human health outcomes\n\n\nQuite broad!"
+  },
+  {
+    "objectID": "index.html#what-about-biostatistics",
+    "href": "index.html#what-about-biostatistics",
+    "title": "",
+    "section": "What about biostatistics?",
+    "text": "What about biostatistics?"
+  },
+  {
+    "objectID": "index.html#what-about-biostatistics-12",
+    "href": "index.html#what-about-biostatistics-12",
+    "title": "",
+    "section": "What about biostatistics? (1/2)",
+    "text": "What about biostatistics? (1/2)\n\n\nEnvironmental epidemiology impossible without biostatistics!\n\n\nMethods matter, especially with “contentious” topics\n\n\nAccurate communication of methods and results, too!"
+  },
+  {
+    "objectID": "index.html#what-about-biostatistics-22",
+    "href": "index.html#what-about-biostatistics-22",
+    "title": "",
+    "section": "What about biostatistics? (2/2)",
+    "text": "What about biostatistics? (2/2)\n\nAs biostatisticians in environmental research, we can expect:\n\nMessy and complex data\n\nNovel methods or combinations of methods\n\nMany interacting exposures"
+  },
+  {
+    "objectID": "index.html#environmental-health-data",
+    "href": "index.html#environmental-health-data",
+    "title": "",
+    "section": "Environmental health data",
+    "text": "Environmental health data\n\n\n\nTime series\nGeospatial\nSpatiotemporal\nLongitudinal/hierarchical\nHigh-dimensional\nCombinations thereof"
+  },
+  {
+    "objectID": "index.html#time-series",
+    "href": "index.html#time-series",
+    "title": "",
+    "section": "Time series",
+    "text": "Time series\n\nData with time frequency (e.g., every year, every minute)"
+  },
+  {
+    "objectID": "index.html#geospatial",
+    "href": "index.html#geospatial",
+    "title": "",
+    "section": "Geospatial",
+    "text": "Geospatial\n\n\nData with some spatial component\n\nStored as raster (grid), vector (polygons), and/or tabular data"
+  },
+  {
+    "objectID": "index.html#geospatial-1",
+    "href": "index.html#geospatial-1",
+    "title": "",
+    "section": "Geospatial",
+    "text": "Geospatial\n\n\n\nExample: map of environmental degradation in the Americas"
+  },
+  {
+    "objectID": "index.html#spatiotemporal",
+    "href": "index.html#spatiotemporal",
+    "title": "",
+    "section": "Spatiotemporal",
+    "text": "Spatiotemporal\n\n\nSpatial data that changes over time\n\n\nTechnically, all spatial data changes over time!\n\nDepends on your analytic time window\nAnd data availability"
+  },
+  {
+    "objectID": "index.html#spatiotemporal-1",
+    "href": "index.html#spatiotemporal-1",
+    "title": "",
+    "section": "Spatiotemporal",
+    "text": "Spatiotemporal\n\n\n\nExample: forecast map of wildfire smoke in USA"
+  },
+  {
+    "objectID": "index.html#hierarchicallongitudinal",
+    "href": "index.html#hierarchicallongitudinal",
+    "title": "",
+    "section": "Hierarchical/longitudinal",
+    "text": "Hierarchical/longitudinal\n\n\nData with some sort of “nesting” or hierarchy\n\nExample: individuals within cities within countries\n\nData from each level must be considered in models \n\n\nNote: longitudinal health data is nested by individual"
+  },
+  {
+    "objectID": "index.html#high-dimensional",
+    "href": "index.html#high-dimensional",
+    "title": "",
+    "section": "High-dimensional",
+    "text": "High-dimensional\n\n\nIncreasing availability of genomic, metabolomic, epigenomic, and other data\n\n\nOften thousands (or more) features\n\nWhich are important?"
+  },
+  {
+    "objectID": "index.html#various-combinations-of-all-of-these",
+    "href": "index.html#various-combinations-of-all-of-these",
+    "title": "",
+    "section": "Various combinations of all of these!",
+    "text": "Various combinations of all of these!\n\n\n\n\nExample: this spatiotemporal data could be clustered by NYC borough"
+  },
+  {
+    "objectID": "index.html#example-studies",
+    "href": "index.html#example-studies",
+    "title": "",
+    "section": "Example studies",
+    "text": "Example studies\n\nExtreme heat, air pollution, and congenital heart defects\nThe Diesel Exhaust in Miners Study (DEMS)"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects\n\n\nSimmons et al, 2021 (Science of the Total Environment)"
+  },
+  {
+    "objectID": "index.html#importance",
+    "href": "index.html#importance",
+    "title": "",
+    "section": "Importance",
+    "text": "Importance\n\n\n\n\n\n\n\nNote: PM2.5 = airborne particulate matter ≤2.5 μm in diameter, which penetrate deeply into the lungs\n\n\n\n\n\nBackground\n\nCongenital heart defects (CHDs) are the most common group of birth defects\nEvidence for effects of extreme heat, pollution on risk of CHDs\n\n\n\n\n\n\nThis study\n\nQuestion: Do extreme heat and PM2.5 during pregnancy interact to increase offspring CHD risk?\nFinding: yes, for some CHDs"
+  },
+  {
+    "objectID": "index.html#methods",
+    "href": "index.html#methods",
+    "title": "",
+    "section": "Methods",
+    "text": "Methods\n\n\nPM, extreme heat, and congenital heart defects, 2012\n\n\n\n\n\nStudy populaton: National Birth Defects Prevention Study (NBDPS)\n\nEnvironmental data\n\nPM2.5: nearest EPA PM2.5 monitor within 50km\nExtreme heat: participants geocoded and extreme heat days counted at residence\n\n\nLogistic regression models: interaction term between extreme heat days and PM2.5 levels"
+  },
+  {
+    "objectID": "index.html#results",
+    "href": "index.html#results",
+    "title": "",
+    "section": "Results",
+    "text": "Results\n\n\nPM, extreme heat, and congenital heart defects, 2012\n\n\n\n\nWith a high number of extreme heat days during pregnancy (15+), each 5 μg/m³ increase in average PM2.5 exposure was associated with:\n\nPerimembranous ventricular septal defects (OR: 1.54 [95% CI: 1.01, 2.41])\nSeptal defects (OR: 1.39 [95% CI: 1.00, 1.93])"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "",
+    "section": "",
+    "text": "The Diesel Exhaust in Miners Study (DEMS)\n\nAttfield et al, 2012 (Journal of the National Cancer Inst.)"
+  },
+  {
+    "objectID": "index.html#importance-1",
+    "href": "index.html#importance-1",
+    "title": "",
+    "section": "Importance",
+    "text": "Importance\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nMachines in mines use diesel engines to extract ore\n\nPoor ventilation causes dangerous exposures, but this wasn’t always agreed upon\n\nFirst study to demonstrate link between diesel exhaust and lung cancer\n\nLed WHO to categorize diesel exhaust as human carcinogen"
+  },
+  {
+    "objectID": "index.html#methods-1",
+    "href": "index.html#methods-1",
+    "title": "",
+    "section": "Methods",
+    "text": "Methods\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nStudy of 12,135 workers exposed to diesel exhaust at eight US mining facilities \nCarbon exposure quantified for each worker using external data \nAssociation with cancers estimated, with confounders (e.g., tobacco use) considered"
+  },
+  {
+    "objectID": "index.html#results-1",
+    "href": "index.html#results-1",
+    "title": "",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\n\nThose with higher estimated exposures had increased risk of lung cancer\n\nRisk also increased by years spent as miner (“tenure”)\n\nLung cancer HR = 5.01, 95% CI = 1.97 to 12.76\n\n\nFor miners with ≥5 years of tenure and estimated exposure of 640 to &lt;1280 μg/m3/yr (versus no exposure)"
+  },
+  {
+    "objectID": "index.html#controversy",
+    "href": "index.html#controversy",
+    "title": "",
+    "section": "Controversy",
+    "text": "Controversy\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nAcademic journals, including The Lancet, received threats from industry-funded Mining Awareness Resource Group\n\nUnspecified “consequences” promised if results were published\n\nWithout scientific study, though, WHO couldn’t reclassify as carcinogen\n\nSeminal paper finally published in 2012, nearly two decades after study created"
+  },
+  {
+    "objectID": "index.html#challenges-facing-the-field",
+    "href": "index.html#challenges-facing-the-field",
+    "title": "",
+    "section": "Challenges facing the field",
+    "text": "Challenges facing the field"
+  },
+  {
+    "objectID": "index.html#challenges-facing-the-field-1",
+    "href": "index.html#challenges-facing-the-field-1",
+    "title": "",
+    "section": "Challenges facing the field",
+    "text": "Challenges facing the field\n\n\n\nIdentifying meaningful, relevant questions\n\nEnvironmental exposures disproportionately affect people of color and low-income countries\n\n\nIntegrating shifts and complexities in:\n\nDemographic (aging, urbanization, migration)\nEnvironmental exposures (climate change)\nData sources (genomics, epigenetics, metabolomics)\n\n\nExposure measurement challenges\n\nEquity of data availability and production"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "",
+    "section": "",
+    "text": "thanks!\n\nquestions?"
+  },
+  {
+    "objectID": "index.html#citations-and-further-reading",
+    "href": "index.html#citations-and-further-reading",
+    "title": "",
+    "section": "Citations and further reading",
+    "text": "Citations and further reading\n\n\nCitations:\nSimmons et al. Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects. Sci Total Environ. (2022). doi: 10.1016/j.scitotenv.2021.152150.\nM. Attfield et al. The Diesel Exhaust in Miners Study: A Cohort Mortality Study With Emphasis on Lung Cancer. J Natl Cancer Inst. (2012). doi: 10.1093/jnci/djs035.\nB. Furlow. Industry group “threatens” journals to delay publications. Lancet Oncol (2012). doi: 10.1016/s1470-2045(12)70094-3.\n\nFurther reading:\nTonne et al. New frontiers for environmental epidemiology in a changing world. Environment International (2017). doi: 10.1016/j.envint.2017.04.003.\nA. M. Vicedo-Cabrera et al. The burden of heat-related mortality attributable to recent human-induced climate change. Nature Climate Change (2024). doi: 10.1038/s41558-021-01058-x.\nMichelle L. Bell, Antonio Gasparrini, and Georges C. Benjamin. Climate Change, Extreme Heat, and Health. New England Journal of Medicine (2024). doi: 10.1056/NEJMra2210769."
+  }
+]

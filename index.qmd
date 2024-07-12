@@ -1,0 +1,532 @@
+---
+pagetitle: "Environmental epidemiology and biostatistics"
+pagesubtitle: 
+format:
+  revealjs: 
+    theme: [default, styles.scss]
+    incremental: true
+    chalkboard: true
+    reference-location: margin
+    slide-number: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+## <br> <span style="background-color: #FFFFFF">Environmental epidemiology and biostatistics</span> {background-image="./images/smokestacks.jpg"}
+
+<br>
+
+::: small
+
+::: pull-right
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="background-color: #FFFFFF">
+Will Simmons  
+12 July 2024  
+Weill Cornell Medicine Biostatistics
+</span>
+:::
+
+::: 
+
+## About me
+<!-- 2 minutes -->
+
+Education 
+
+. . .
+
+![](images/baylor-logo.png){.absolute top=250 left=250 width="500"}
+![](images/logo-mailman-blue-horizontal.svg){.absolute top=450 left=-50 width="500"}
+![](images/logo-iri-large.png){.absolute top=450 left=550 width="500"}
+
+## About me 
+
+Experience in environmental health methods
+
+## About me 
+
+Experience in environmental health methods
+
+::: columns
+::: {.column width="50%"}
+::: {.small}
+**IRI**:  
+
+Climate exposures and nutrition in Bangladesh  
+:::
+![](images/who-bulletin-figure.jpg)
+:::
+
+:::
+
+## About me 
+
+Experience in environmental health methods
+
+::: columns
+::: {.column width="50%"}
+::: {.small}
+**IRI**:  
+
+Climate exposures and nutrition in Bangladesh  
+:::
+![](images/who-bulletin-figure.jpg)
+:::
+
+::: {.column width="50%"}
+::: {.small}
+
+**Master's research**:  
+
+Extreme heat, air pollution, and congenital heart defects
+:::
+![](images/stoten_figure_2.png) 
+:::
+
+:::
+
+## About me
+
+Current work as a hospital biostatistician
+
+## About me
+
+Current work as a hospital biostatistician
+
+::: columns
+::: {.column width="50%"}
+::: {.small}
+**Pediatric mental health** 
+![](images/pediatrics-figure.png){width=400}
+
+**Quality of care**
+![](images/zach-qi-plot.png){width=400}
+:::
+:::
+
+::: {.column width="50%"}
+::: {.small}
+**Chronic kidney disease** 
+![](images/nyc_pt_map_edit.png){width=300}
+
+**SQL database management**
+![](images/sql-query.png){width=300}
+:::
+:::
+:::
+
+## What is environmental epidemiology? {.center}
+<!-- 1 minute -->
+
+## What is environmental epidemiology?
+
+::: {.nonincremental}
+<br>  
+
+* Study of environmental exposures and how they affect human health outcomes  
+<br>  
+* Quite broad!  
+
+:::
+
+## What about biostatistics? {.center}
+<!-- 1 minute -->
+
+## What about biostatistics? (1/2)
+
+<br>  
+
+* Environmental epidemiology impossible without biostatistics!  
+<br>  
+* **Methods matter**, especially with "contentious" topics  
+<br>  
+* Accurate communication of methods and results, too!
+
+## What about biostatistics? (2/2)
+
+<br>  
+As biostatisticians in environmental research, we can expect:
+
+* Messy and complex data  
+* Novel methods or combinations of methods  
+* Many interacting exposures 
+
+## Environmental health data
+<!-- 5 minutes -->
+
+::: {.nonincremental}
+- Time series
+- Geospatial
+- Spatiotemporal
+- Longitudinal/hierarchical
+- High-dimensional
+- Combinations thereof
+:::
+
+## Time series
+
+* Data with time frequency (e.g., every year, every minute)  
+
+. . . 
+
+![](https://npr.brightspotcdn.com/dims4/default/336f225/2147483647/strip/true/crop/620x649+0+0/resize/880x921!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2F35%2Ffb%2Ff37dcc13424d9858aaba1eeaf46f%2Fgulfofmexicoheat5-tbt-081723.gif){width="45%" fig-align="center"}
+
+## Geospatial
+
+<br>
+
+* Data with some spatial component  
+<br>
+* Stored as raster (grid), vector (polygons), and/or tabular data  
+
+## Geospatial
+
+![](images/environmental-degradation-map.jpg){fig-align="center" width="60%"}
+
+:::{style="text-align: center;"}
+::: {.small}
+**Example**: map of environmental degradation in the Americas  
+:::
+:::
+
+## Spatiotemporal
+
+<br>  
+
+  * Spatial data that changes over time  
+<br>  
+  * Technically, all spatial data changes over time!  
+    * Depends on your analytic time window
+    * And data availability
+    
+## Spatiotemporal
+
+![](https://www.weather.gov/images/news/HRRR-SmokeModel.gif){fig-align="center"}
+
+:::{style="text-align: center;"}
+::: {.small}
+**Example**: forecast map of wildfire smoke in USA  
+:::
+:::
+
+## Hierarchical/longitudinal
+
+<br>
+
+* Data with some sort of "nesting" or hierarchy  
+<br>
+* Example: individuals within cities within countries  
+  * Data from each level must be considered in models
+<br>  
+* Note: longitudinal health data is nested by individual
+
+## High-dimensional
+
+<br>  
+
+  * Increasing availability of genomic, metabolomic, epigenomic, and other data  
+<br>  
+  * Often thousands (or more) features  
+    * Which are important?  
+
+## Various combinations of all of these!
+
+<br>  
+
+![](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/air-quality-and-covid-part-2/PM-animated-map.gif){fig-align="center"}
+
+:::{style="text-align: center;"}
+::: {.small}
+**Example**: this spatiotemporal data could be clustered by NYC borough  
+:::
+:::
+
+## Example studies {.center}
+
+1. Extreme heat, air pollution, and congenital heart defects
+
+2. The Diesel Exhaust in Miners Study (DEMS)
+
+<!-- 3. Extreme heat and global mortality -->
+
+## {.center}
+::: medium
+**Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects**
+:::
+::: small
+Simmons et al, 2021 (Science of the Total Environment)
+:::
+
+## Importance
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: small -->
+<!-- PM, extreme heat, and congenital heart defects, 2012 -->
+<!-- ::: -->
+<!-- ::: -->
+
+::: {.absolute bottom=0 left=0}
+::: small
+Note: PM~2.5~ = airborne particulate matter ≤2.5 μm in diameter, which penetrate deeply into the lungs
+:::
+:::
+
+<br>
+
+. . . 
+
+::: medium
+
+
+Background  
+
+* Congenital heart defects (CHDs) are the most common group of birth defects
+* Evidence for effects of extreme heat, pollution on risk of CHDs
+
+:::
+
+<br>
+
+. . . 
+
+::: medium
+This study  
+
+* Question: Do extreme heat and PM~2.5~ during pregnancy interact to increase offspring CHD risk?
+* Finding: yes, for some CHDs
+  
+:::
+
+## Methods
+::: {.absolute bottom=0 right=0}
+::: small
+PM, extreme heat, and congenital heart defects, 2012
+:::
+:::
+
+::: medium
+
+<br>
+
+* Study populaton: National Birth Defects Prevention Study (NBDPS)  
+<br>
+* Environmental data
+  * PM~2.5~: nearest EPA PM2.5 monitor within 50km
+  * Extreme heat: participants geocoded and extreme heat days counted at residence  
+<br>
+* Logistic regression models: interaction term between extreme heat days and PM~2.5~ levels
+
+:::
+
+## Results
+::: {.absolute bottom=0 right=0}
+::: small
+PM, extreme heat, and congenital heart defects, 2012
+:::
+:::
+
+::: medium
+
+::: {.nonincremental}
+With a high number of extreme heat days during pregnancy (15+), each 5 μg/m³ increase in average PM~2.5~ exposure was associated with:  
+
+  * Perimembranous ventricular septal defects (OR: 1.54 [95% CI: 1.01, 2.41]) 
+  * Septal defects (OR: 1.39 [95% CI: 1.00, 1.93])
+  
+:::
+:::
+  
+![](images/stoten_figure_3.png){fig-align="center"}
+
+## {.center}
+#### The Diesel Exhaust in Miners Study (DEMS)
+::: small
+Attfield et al, 2012 (Journal of the National Cancer Inst.)
+:::
+
+## Importance
+::: {.absolute bottom=0 right=0}
+::: small
+Diesel Exhaust in Miners Study (DEMS), 2012
+:::
+:::
+
+<br>
+
+::: medium
+
+* Machines in mines use diesel engines to extract ore   
+<br>
+* Poor ventilation causes dangerous exposures, but this wasn't always agreed upon  
+<br>
+* First study to demonstrate link between diesel exhaust and lung cancer  
+<br>
+* Led WHO to categorize diesel exhaust as human carcinogen  
+
+:::
+
+## Methods
+::: {.absolute bottom=0 right=0}
+::: small
+Diesel Exhaust in Miners Study (DEMS), 2012
+:::
+:::
+
+<br>
+
+::: medium
+
+* Study of 12,135 workers exposed to diesel exhaust at eight US mining facilities
+<br>
+* Carbon exposure quantified for each worker using external data
+<br>
+* Association with cancers estimated, with confounders (e.g., tobacco use) considered
+
+:::
+
+## Results
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: small -->
+<!-- Diesel Exhaust in Miners Study (DEMS), 2012 -->
+<!-- ::: -->
+<!-- ::: -->
+
+::: medium
+
+* Those with higher estimated exposures had increased risk of lung cancer  
+<br>
+* Risk also increased by years spent as miner ("tenure")  
+<br>
+* Lung cancer HR = 5.01, 95% CI = 1.97 to 12.76
+  * <p style="font-size: medium">For miners with ≥5 years of tenure and estimated exposure of 640 to <1280 μg/m^3^/yr (versus no exposure)</p>
+
+:::
+
+. . . 
+
+![](images/dems-figure.jpg){width="60%" fig-align="center"}
+
+## Controversy
+::: {.absolute bottom=0 right=0}
+::: small
+Diesel Exhaust in Miners Study (DEMS), 2012
+:::
+:::
+
+<br>
+
+::: medium
+
+* Academic journals, including *The Lancet*, received threats from industry-funded Mining Awareness Resource Group  
+<br>
+* Unspecified "consequences" promised if results were published   
+<br>
+* Without scientific study, though, WHO couldn't reclassify as carcinogen  
+<br>
+* Seminal paper finally published in 2012, nearly two decades after study created  
+
+:::
+
+<!-- ## {.center} -->
+<!-- #### The burden of heat-related mortality attributable to recent human-induced climate change -->
+<!-- ::: small -->
+<!-- Vicedo-Cabrera et al, 2021 (Nature Climate Change) -->
+<!-- ::: -->
+
+<!-- ## Importance -->
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: small -->
+<!-- Heat-related mortality, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- <br> -->
+
+<!-- ::: medium -->
+
+<!-- * Estimates heat-related human health impacts that have already occurred due to climate change   -->
+
+
+<!-- ::: -->
+
+<!-- ## Methods -->
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: small -->
+<!-- Heat-related mortality, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## Results -->
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: small -->
+<!-- Heat-related mortality, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
+
+## Challenges facing the field {.center}
+
+## Challenges facing the field
+
+::: medium
+
+<br>
+
+* Identifying meaningful, relevant questions  
+  * Environmental exposures disproportionately affect people of color and low-income countries  
+<br>
+* Integrating shifts and complexities in:  
+  * Demographic (aging, urbanization, migration)
+  * Environmental exposures (climate change)
+  * Data sources (genomics, epigenetics, metabolomics)    
+<br>
+* Exposure measurement challenges  
+<br>
+* Equity of data availability and production  
+
+:::
+
+##
+
+[ ]{.r-fit-text}
+
+::: {style="text-align: center;"}
+<br>  
+thanks!  
+<br>  
+questions? 
+:::
+
+## Citations and further reading
+
+::: small
+
+<br>
+
+**Citations:**
+
+Simmons et al. Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects. Sci Total Environ. (2022). doi: [10.1016/j.scitotenv.2021.152150](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8758551/). 
+
+M. Attfield et al. The Diesel Exhaust in Miners Study: A Cohort Mortality Study With Emphasis on Lung Cancer. J Natl Cancer Inst. (2012). doi: [10.1093/jnci/djs035](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3373218/).
+
+B. Furlow. Industry group "threatens" journals to delay publications. Lancet Oncol (2012). doi: [10.1016/s1470-2045(12)70094-3](https://pubmed.ncbi.nlm.nih.gov/22577661/).
+
+<br>
+
+**Further reading:**
+
+Tonne et al. New frontiers for environmental epidemiology in a changing world. Environment International (2017). doi: [10.1016/j.envint.2017.04.003](https://doi.org/10.1016/j.envint.2017.04.003). 
+
+A. M. Vicedo-Cabrera et al. The burden of heat-related mortality attributable to recent human-induced climate change. Nature Climate Change (2024). doi: [10.1038/s41558-021-01058-x](https://doi.org/10.1038/s41558-021-01058-x).
+
+Michelle L. Bell, Antonio Gasparrini, and Georges C. Benjamin. Climate Change, Extreme Heat, and Health. New England Journal of Medicine (2024). doi: [10.1056/NEJMra2210769](https://www.nejm.org/doi/full/10.1056/NEJMra2210769).  
+
+:::
