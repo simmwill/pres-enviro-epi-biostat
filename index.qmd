@@ -31,7 +31,7 @@ library(tidyverse)
 <br>
 <span style="background-color: #FFFFFF">
 Will Simmons  
-12 July 2024  
+<!-- 12 July 2024 -->13 June 2025  
 Weill Cornell Medicine Biostatistics
 </span>
 :::
@@ -65,6 +65,11 @@ Experience in environmental health methods
 Climate exposures and nutrition in Bangladesh  
 :::
 ![](images/who-bulletin-figure.jpg)
+
+::: {.verysmall}
+H Nissan, W Simmons, SM Downs. "Building climate-sensitive nutrition programmes." *Bulletin of the World Health Organization*, 2021.
+:::
+
 :::
 
 :::
@@ -81,6 +86,11 @@ Experience in environmental health methods
 Climate exposures and nutrition in Bangladesh  
 :::
 ![](images/who-bulletin-figure.jpg)
+
+::: {.verysmall}
+H Nissan, W Simmons, SM Downs. "Building climate-sensitive nutrition programmes." *Bulletin of the World Health Organization*, 2021.
+:::
+
 :::
 
 ::: {.column width="50%"}
@@ -91,6 +101,14 @@ Climate exposures and nutrition in Bangladesh
 Extreme heat, air pollution, and congenital heart defects
 :::
 ![](images/stoten_figure_2.png) 
+<br>
+
+::: {.verysmall}
+<br>
+<br>
+W Simmons, et al. "Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects." *Science of The Total Environment*, 2022.
+:::
+
 :::
 
 :::
@@ -110,7 +128,7 @@ Current work as a hospital biostatistician
 ![](images/pediatrics-figure.png){width=400}
 
 **Quality of care**
-![](images/zach-qi-plot.png){width=400}
+![](images/zach-qi-plot-2.png){width=400}
 :::
 :::
 
@@ -150,7 +168,7 @@ Current work as a hospital biostatistician
 <br>  
 * **Methods matter**, especially with "contentious" topics  
 <br>  
-* Accurate communication of methods and results, too!
+* Accurate communication of methods/results matters, too!
 
 ## What about biostatistics? (2/2)
 
@@ -223,12 +241,13 @@ As biostatisticians in environmental research, we can expect:
 
 <br>
 
-* Data with some sort of "nesting" or hierarchy  
+* Data with some sort of "nested" structure  
 <br>
-* Example: individuals within cities within countries  
-  * Data from each level must be considered in models
-<br>  
-* Note: longitudinal health data is nested by individual
+* Examples:  
+  * Individuals within cities within countries  
+  * Multiple timepoints within individuals  
+<br>
+* Information from each level must be considered in models
 
 ## High-dimensional
 
@@ -236,7 +255,7 @@ As biostatisticians in environmental research, we can expect:
 
   * Increasing availability of genomic, metabolomic, epigenomic, and other data  
 <br>  
-  * Often thousands (or more) features  
+  * Often thousands of features (measured variables)  
     * Which are important?  
 
 ## Various combinations of all of these!
@@ -247,7 +266,7 @@ As biostatisticians in environmental research, we can expect:
 
 :::{style="text-align: center;"}
 ::: {.small}
-**Example**: this spatiotemporal data could be clustered by NYC borough  
+**Example**: this spatiotemporal data could be clustered by NYC borough or ZIP Code  
 :::
 :::
 
@@ -290,7 +309,7 @@ Note: PM~2.5~ = airborne particulate matter ≤2.5 μm in diameter, which penetr
 Background  
 
 * Congenital heart defects (CHDs) are the most common group of birth defects
-* Evidence for effects of extreme heat, pollution on risk of CHDs
+* Evidence that extreme heat and pollution increase risk of CHDs
 
 :::
 
@@ -307,17 +326,19 @@ This study
 :::
 
 ## Methods
-::: {.absolute bottom=0 right=0}
-::: small
-PM, extreme heat, and congenital heart defects, 2012
-:::
-:::
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: verysmall -->
+<!-- PM, extreme heat, and congenital heart defects, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: medium
 
 <br>
 
 * Study populaton: National Birth Defects Prevention Study (NBDPS)  
+<br>
+* Case-control study of 2,824 children with heart defects and 4,033 controls  
 <br>
 * Environmental data
   * PM~2.5~: nearest EPA PM2.5 monitor within 50km
@@ -328,11 +349,11 @@ PM, extreme heat, and congenital heart defects, 2012
 :::
 
 ## Results
-::: {.absolute bottom=0 right=0}
-::: small
-PM, extreme heat, and congenital heart defects, 2012
-:::
-:::
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: verysmall -->
+<!-- PM, extreme heat, and congenital heart defects, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: medium
 
@@ -364,13 +385,15 @@ Diesel Exhaust in Miners Study (DEMS), 2012
 
 ::: medium
 
-* Machines in mines use diesel engines to extract ore   
+* Mines use diesel engines to extract ore   
 <br>
-* Poor ventilation causes dangerous exposures, but this wasn't always agreed upon  
+* Poor ventilation = dangerous exposures for miners, but this wasn't agreed upon  
 <br>
 * First study to demonstrate link between diesel exhaust and lung cancer  
 <br>
-* Led WHO to categorize diesel exhaust as human carcinogen  
+* Led WHO to categorize diesel exhaust as human carcinogen    
+<br>
+* Controversial: research spurred litigation, threats from industry, and more
 
 :::
 
@@ -385,11 +408,11 @@ Diesel Exhaust in Miners Study (DEMS), 2012
 
 ::: medium
 
-* Study of 12,135 workers exposed to diesel exhaust at eight US mining facilities
+* Study of 12,135 workers exposed to diesel exhaust at eight US mining facilities  
 <br>
-* Carbon exposure quantified for each worker using external data
+* Carbon exposure quantified for each worker using external data  
 <br>
-* Association with cancers estimated, with confounders (e.g., tobacco use) considered
+* Association with cancers estimated, with confounders (e.g., tobacco use) considered  
 
 :::
 
@@ -484,7 +507,7 @@ Diesel Exhaust in Miners Study (DEMS), 2012
   * Environmental exposures disproportionately affect people of color and low-income countries  
 <br>
 * Integrating shifts and complexities in:  
-  * Demographic (aging, urbanization, migration)
+  * Demographics (aging, urbanization, migration)
   * Environmental exposures (climate change)
   * Data sources (genomics, epigenetics, metabolomics)    
 <br>

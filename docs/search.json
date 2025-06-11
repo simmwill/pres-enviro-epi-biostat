@@ -4,7 +4,7 @@
     "href": "index.html#environmental-epidemiology-and-biostatistics",
     "title": "",
     "section": " Environmental epidemiology and biostatistics",
-    "text": "Environmental epidemiology and biostatistics\n\n\n\n       Will Simmons\n12 July 2024\nWeill Cornell Medicine Biostatistics"
+    "text": "Environmental epidemiology and biostatistics\n\n\n\n       Will Simmons\n13 June 2025\nWeill Cornell Medicine Biostatistics"
   },
   {
     "objectID": "index.html#about-me",
@@ -25,14 +25,14 @@
     "href": "index.html#about-me-2",
     "title": "",
     "section": "About me",
-    "text": "About me\nExperience in environmental health methods\n\n\n\nIRI:\nClimate exposures and nutrition in Bangladesh"
+    "text": "About me\nExperience in environmental health methods\n\n\n\nIRI:\nClimate exposures and nutrition in Bangladesh\n\n\n\nH Nissan, W Simmons, SM Downs. “Building climate-sensitive nutrition programmes.” Bulletin of the World Health Organization, 2021."
   },
   {
     "objectID": "index.html#about-me-3",
     "href": "index.html#about-me-3",
     "title": "",
     "section": "About me",
-    "text": "About me\nExperience in environmental health methods\n\n\n\nIRI:\nClimate exposures and nutrition in Bangladesh\n\n\n\n\nMaster’s research:\nExtreme heat, air pollution, and congenital heart defects"
+    "text": "About me\nExperience in environmental health methods\n\n\n\nIRI:\nClimate exposures and nutrition in Bangladesh\n\n\n\nH Nissan, W Simmons, SM Downs. “Building climate-sensitive nutrition programmes.” Bulletin of the World Health Organization, 2021.\n\n\n\nMaster’s research:\nExtreme heat, air pollution, and congenital heart defects\n\n \n\n  W Simmons, et al. “Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects.” Science of The Total Environment, 2022."
   },
   {
     "objectID": "index.html#about-me-4",
@@ -74,7 +74,7 @@
     "href": "index.html#what-about-biostatistics-12",
     "title": "",
     "section": "What about biostatistics? (1/2)",
-    "text": "What about biostatistics? (1/2)\n\n\nEnvironmental epidemiology impossible without biostatistics!\n\n\nMethods matter, especially with “contentious” topics\n\n\nAccurate communication of methods and results, too!"
+    "text": "What about biostatistics? (1/2)\n\n\nEnvironmental epidemiology impossible without biostatistics!\n\n\nMethods matter, especially with “contentious” topics\n\n\nAccurate communication of methods/results matters, too!"
   },
   {
     "objectID": "index.html#what-about-biostatistics-22",
@@ -130,21 +130,21 @@
     "href": "index.html#hierarchicallongitudinal",
     "title": "",
     "section": "Hierarchical/longitudinal",
-    "text": "Hierarchical/longitudinal\n\n\nData with some sort of “nesting” or hierarchy\n\nExample: individuals within cities within countries\n\nData from each level must be considered in models \n\n\nNote: longitudinal health data is nested by individual"
+    "text": "Hierarchical/longitudinal\n\n\nData with some sort of “nested” structure\n\nExamples:\n\nIndividuals within cities within countries\n\nMultiple timepoints within individuals\n\n\nInformation from each level must be considered in models"
   },
   {
     "objectID": "index.html#high-dimensional",
     "href": "index.html#high-dimensional",
     "title": "",
     "section": "High-dimensional",
-    "text": "High-dimensional\n\n\nIncreasing availability of genomic, metabolomic, epigenomic, and other data\n\n\nOften thousands (or more) features\n\nWhich are important?"
+    "text": "High-dimensional\n\n\nIncreasing availability of genomic, metabolomic, epigenomic, and other data\n\n\nOften thousands of features (measured variables)\n\nWhich are important?"
   },
   {
     "objectID": "index.html#various-combinations-of-all-of-these",
     "href": "index.html#various-combinations-of-all-of-these",
     "title": "",
     "section": "Various combinations of all of these!",
-    "text": "Various combinations of all of these!\n\n\n\n\nExample: this spatiotemporal data could be clustered by NYC borough"
+    "text": "Various combinations of all of these!\n\n\n\n\nExample: this spatiotemporal data could be clustered by NYC borough or ZIP Code"
   },
   {
     "objectID": "index.html#example-studies",
@@ -165,21 +165,21 @@
     "href": "index.html#importance",
     "title": "",
     "section": "Importance",
-    "text": "Importance\n\n\n\n\n\n\n\nNote: PM2.5 = airborne particulate matter ≤2.5 μm in diameter, which penetrate deeply into the lungs\n\n\n\n\n\nBackground\n\nCongenital heart defects (CHDs) are the most common group of birth defects\nEvidence for effects of extreme heat, pollution on risk of CHDs\n\n\n\n\n\n\nThis study\n\nQuestion: Do extreme heat and PM2.5 during pregnancy interact to increase offspring CHD risk?\nFinding: yes, for some CHDs"
+    "text": "Importance\n\n\n\n\n\n\n\nNote: PM2.5 = airborne particulate matter ≤2.5 μm in diameter, which penetrate deeply into the lungs\n\n\n\n\n\nBackground\n\nCongenital heart defects (CHDs) are the most common group of birth defects\nEvidence that extreme heat and pollution increase risk of CHDs\n\n\n\n\n\n\nThis study\n\nQuestion: Do extreme heat and PM2.5 during pregnancy interact to increase offspring CHD risk?\nFinding: yes, for some CHDs"
   },
   {
     "objectID": "index.html#methods",
     "href": "index.html#methods",
     "title": "",
     "section": "Methods",
-    "text": "Methods\n\n\nPM, extreme heat, and congenital heart defects, 2012\n\n\n\n\n\nStudy populaton: National Birth Defects Prevention Study (NBDPS)\n\nEnvironmental data\n\nPM2.5: nearest EPA PM2.5 monitor within 50km\nExtreme heat: participants geocoded and extreme heat days counted at residence\n\n\nLogistic regression models: interaction term between extreme heat days and PM2.5 levels"
+    "text": "Methods\n\n\n\n\n\n\n\n\nStudy populaton: National Birth Defects Prevention Study (NBDPS)\n\nCase-control study of 2,824 children with birth defects and 4,033 controls\n\nEnvironmental data\n\nPM2.5: nearest EPA PM2.5 monitor within 50km\nExtreme heat: participants geocoded and extreme heat days counted at residence\n\n\nLogistic regression models: interaction term between extreme heat days and PM2.5 levels"
   },
   {
     "objectID": "index.html#results",
     "href": "index.html#results",
     "title": "",
     "section": "Results",
-    "text": "Results\n\n\nPM, extreme heat, and congenital heart defects, 2012\n\n\n\n\nWith a high number of extreme heat days during pregnancy (15+), each 5 μg/m³ increase in average PM2.5 exposure was associated with:\n\nPerimembranous ventricular septal defects (OR: 1.54 [95% CI: 1.01, 2.41])\nSeptal defects (OR: 1.39 [95% CI: 1.00, 1.93])"
+    "text": "Results\n\n\n\n\n\n\n\nWith a high number of extreme heat days during pregnancy (15+), each 5 μg/m³ increase in average PM2.5 exposure was associated with:\n\nPerimembranous ventricular septal defects (OR: 1.54 [95% CI: 1.01, 2.41])\nSeptal defects (OR: 1.39 [95% CI: 1.00, 1.93])"
   },
   {
     "objectID": "index.html#section-1",
@@ -193,14 +193,14 @@
     "href": "index.html#importance-1",
     "title": "",
     "section": "Importance",
-    "text": "Importance\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nMachines in mines use diesel engines to extract ore\n\nPoor ventilation causes dangerous exposures, but this wasn’t always agreed upon\n\nFirst study to demonstrate link between diesel exhaust and lung cancer\n\nLed WHO to categorize diesel exhaust as human carcinogen"
+    "text": "Importance\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nMines use diesel engines to extract ore\n\nPoor ventilation = dangerous exposures for miners, but this wasn’t agreed upon\n\nFirst study to demonstrate link between diesel exhaust and lung cancer\n\nLed WHO to categorize diesel exhaust as human carcinogen\n\nControversial: research spurred litigation, threats from industry, and more"
   },
   {
     "objectID": "index.html#methods-1",
     "href": "index.html#methods-1",
     "title": "",
     "section": "Methods",
-    "text": "Methods\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nStudy of 12,135 workers exposed to diesel exhaust at eight US mining facilities \nCarbon exposure quantified for each worker using external data \nAssociation with cancers estimated, with confounders (e.g., tobacco use) considered"
+    "text": "Methods\n\n\nDiesel Exhaust in Miners Study (DEMS), 2012\n\n\n\n\n\nStudy of 12,135 workers exposed to diesel exhaust at eight US mining facilities\n\nCarbon exposure quantified for each worker using external data\n\nAssociation with cancers estimated, with confounders (e.g., tobacco use) considered"
   },
   {
     "objectID": "index.html#results-1",

@@ -333,7 +333,7 @@
 <div class="small">
 <div class="pull-right">
 <p><br> <br> <br> <br> <br> <br> <span style="background-color: #FFFFFF"> Will Simmons<br>
-12 July 2024<br>
+<!-- 12 July 2024 -->13 June 2025<br>
 Weill Cornell Medicine Biostatistics </span></p>
 </div>
 </div>
@@ -360,6 +360,9 @@ Weill Cornell Medicine Biostatistics </span></p>
 <p>Climate exposures and nutrition in Bangladesh</p>
 </div>
 <p><img data-src="images/who-bulletin-figure.jpg"></p>
+<div class="verysmall">
+<p>H Nissan, W Simmons, SM Downs. “Building climate-sensitive nutrition programmes.” <em>Bulletin of the World Health Organization</em>, 2021.</p>
+</div>
 </div>
 </div>
 </section>
@@ -373,12 +376,18 @@ Weill Cornell Medicine Biostatistics </span></p>
 <p>Climate exposures and nutrition in Bangladesh</p>
 </div>
 <p><img data-src="images/who-bulletin-figure.jpg"></p>
+<div class="verysmall">
+<p>H Nissan, W Simmons, SM Downs. “Building climate-sensitive nutrition programmes.” <em>Bulletin of the World Health Organization</em>, 2021.</p>
+</div>
 </div><div class="column" style="width:50%;">
 <div class="small">
 <p><strong>Master’s research</strong>:</p>
 <p>Extreme heat, air pollution, and congenital heart defects</p>
 </div>
-<p><img data-src="images/stoten_figure_2.png"></p>
+<p><img data-src="images/stoten_figure_2.png"> <br></p>
+<div class="verysmall">
+<p><br> <br> W Simmons, et al.&nbsp;“Modeling complex effects of exposure to particulate matter and extreme heat during pregnancy on congenital heart defects.” <em>Science of The Total Environment</em>, 2022.</p>
+</div>
 </div>
 </div>
 </section>
@@ -393,7 +402,7 @@ Weill Cornell Medicine Biostatistics </span></p>
 <div class="column" style="width:50%;">
 <div class="small">
 <p><strong>Pediatric mental health</strong> <img data-src="images/pediatrics-figure.png" width="400"></p>
-<p><strong>Quality of care</strong> <img data-src="images/zach-qi-plot.png" width="400"></p>
+<p><strong>Quality of care</strong> <img data-src="images/zach-qi-plot-2.png" width="400"></p>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="small">
@@ -433,7 +442,7 @@ Weill Cornell Medicine Biostatistics </span></p>
 <li class="fragment"><strong>Methods matter</strong>, especially with “contentious” topics<br>
 <br><br>
 </li>
-<li class="fragment">Accurate communication of methods and results, too!</li>
+<li class="fragment">Accurate communication of methods/results matters, too!</li>
 </ul>
 </section>
 <section id="what-about-biostatistics-22" class="slide level2">
@@ -520,14 +529,16 @@ As biostatisticians in environmental research, we can expect:</p>
 <h2>Hierarchical/longitudinal</h2>
 <p><br></p>
 <ul>
-<li class="fragment">Data with some sort of “nesting” or hierarchy<br>
+<li class="fragment">Data with some sort of “nested” structure<br>
 <br></li>
-<li class="fragment">Example: individuals within cities within countries
+<li class="fragment">Examples:
 <ul>
-<li class="fragment">Data from each level must be considered in models <br><br>
+<li class="fragment">Individuals within cities within countries<br>
 </li>
+<li class="fragment">Multiple timepoints within individuals<br>
+<br></li>
 </ul></li>
-<li class="fragment">Note: longitudinal health data is nested by individual</li>
+<li class="fragment">Information from each level must be considered in models</li>
 </ul>
 </section>
 <section id="high-dimensional" class="slide level2">
@@ -537,7 +548,7 @@ As biostatisticians in environmental research, we can expect:</p>
 <li class="fragment">Increasing availability of genomic, metabolomic, epigenomic, and other data<br>
 <br><br>
 </li>
-<li class="fragment">Often thousands (or more) features
+<li class="fragment">Often thousands of features (measured variables)
 <ul>
 <li class="fragment">Which are important?</li>
 </ul></li>
@@ -549,7 +560,7 @@ As biostatisticians in environmental research, we can expect:</p>
 
 <img data-src="https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/air-quality-and-covid-part-2/PM-animated-map.gif" class="quarto-figure quarto-figure-center r-stretch"><div style="text-align: center;">
 <div class="small">
-<p><strong>Example</strong>: this spatiotemporal data could be clustered by NYC borough</p>
+<p><strong>Example</strong>: this spatiotemporal data could be clustered by NYC borough or ZIP Code</p>
 </div>
 </div>
 </section>
@@ -588,7 +599,7 @@ As biostatisticians in environmental research, we can expect:</p>
 <p>Background</p>
 <ul>
 <li class="fragment">Congenital heart defects (CHDs) are the most common group of birth defects</li>
-<li class="fragment">Evidence for effects of extreme heat, pollution on risk of CHDs</li>
+<li class="fragment">Evidence that extreme heat and pollution increase risk of CHDs</li>
 </ul>
 </div>
 <p><br></p>
@@ -605,15 +616,17 @@ As biostatisticians in environmental research, we can expect:</p>
 </section>
 <section id="methods" class="slide level2">
 <h2>Methods</h2>
-<div class="absolute" style="bottom: 0px; right: 0px; ">
-<div class="small">
-<p>PM, extreme heat, and congenital heart defects, 2012</p>
-</div>
-</div>
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: verysmall -->
+<!-- PM, extreme heat, and congenital heart defects, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
 <div class="medium">
 <p><br></p>
 <ul>
 <li class="fragment">Study populaton: National Birth Defects Prevention Study (NBDPS)<br>
+<br></li>
+<li class="fragment">Case-control study of 2,824 children with birth defects and 4,033 controls<br>
 <br></li>
 <li class="fragment">Environmental data
 <ul>
@@ -627,11 +640,11 @@ As biostatisticians in environmental research, we can expect:</p>
 </section>
 <section id="results" class="slide level2">
 <h2>Results</h2>
-<div class="absolute" style="bottom: 0px; right: 0px; ">
-<div class="small">
-<p>PM, extreme heat, and congenital heart defects, 2012</p>
-</div>
-</div>
+<!-- ::: {.absolute bottom=0 right=0} -->
+<!-- ::: verysmall -->
+<!-- PM, extreme heat, and congenital heart defects, 2021 -->
+<!-- ::: -->
+<!-- ::: -->
 <div class="medium">
 <div>
 <p>With a high number of extreme heat days during pregnancy (15+), each 5 μg/m³ increase in average PM<sub>2.5</sub> exposure was associated with:</p>
@@ -660,13 +673,15 @@ As biostatisticians in environmental research, we can expect:</p>
 <p><br></p>
 <div class="medium">
 <ul>
-<li class="fragment">Machines in mines use diesel engines to extract ore<br>
+<li class="fragment">Mines use diesel engines to extract ore<br>
 <br></li>
-<li class="fragment">Poor ventilation causes dangerous exposures, but this wasn’t always agreed upon<br>
+<li class="fragment">Poor ventilation = dangerous exposures for miners, but this wasn’t agreed upon<br>
 <br></li>
 <li class="fragment">First study to demonstrate link between diesel exhaust and lung cancer<br>
 <br></li>
-<li class="fragment">Led WHO to categorize diesel exhaust as human carcinogen</li>
+<li class="fragment">Led WHO to categorize diesel exhaust as human carcinogen<br>
+<br></li>
+<li class="fragment">Controversial: research spurred litigation, threats from industry, and more</li>
 </ul>
 </div>
 </section>
@@ -680,8 +695,10 @@ As biostatisticians in environmental research, we can expect:</p>
 <p><br></p>
 <div class="medium">
 <ul>
-<li class="fragment">Study of 12,135 workers exposed to diesel exhaust at eight US mining facilities <br></li>
-<li class="fragment">Carbon exposure quantified for each worker using external data <br></li>
+<li class="fragment">Study of 12,135 workers exposed to diesel exhaust at eight US mining facilities<br>
+<br></li>
+<li class="fragment">Carbon exposure quantified for each worker using external data<br>
+<br></li>
 <li class="fragment">Association with cancers estimated, with confounders (e.g., tobacco use) considered</li>
 </ul>
 </div>
